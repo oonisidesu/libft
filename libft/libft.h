@@ -6,7 +6,7 @@
 /*   By: yootsubo <yootsubo@student.42.jp>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/23 16:49:50 by yootsubo          #+#    #+#             */
-/*   Updated: 2023/10/01 17:48:41 by yootsubo         ###   ########.fr       */
+/*   Updated: 2023/11/06 19:37:16 by yootsubo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,5 +68,8 @@ t_list				*ft_lstmap(t_list *lst, void *(*f)(void *),
 						void (*del)(void *));
 int					ft_tolower(int c);
 int					ft_toupper(int c);
+int					ft_atoi_int(const char *str);
+long				ft_atoi_long(const char *str);
+int					ft_pow(int base, int exponent);
 
 #endif

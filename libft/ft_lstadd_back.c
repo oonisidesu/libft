@@ -6,7 +6,7 @@
 /*   By: yootsubo <yootsubo@student.42.jp>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/28 14:42:32 by yootsubo          #+#    #+#             */
-/*   Updated: 2023/10/06 13:27:05 by yootsubo         ###   ########.fr       */
+/*   Updated: 2023/09/30 20:54:29 by yootsubo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,8 +29,8 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 	last->next = new;
 }
 
-
-/* int	main(void) {
+/*
+int	main(void) {
 	// テスト用のリストを作成
 	t_list *list = NULL;
 	t_list *element1 = malloc(sizeof(t_list));
@@ -39,11 +39,11 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 
 	// リストに要素を追加
 	//ft_lstadd_back(&list, element1);
-	ft_lstadd_back(NULL, element1);
-	//ft_lstadd_back(&list, NULL);
+	//ft_lstadd_back(NULL, element1);
+	ft_lstadd_back(&list, NULL);
 
 	// リストの内容を表示
-	// printf("List after adding element 1:\n");
+	printf("List after adding element 1:\n");
 	t_list *current = list;
 	while (current != NULL) {
 		printf("%s\n", (char *)current->content);
@@ -71,4 +71,5 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 	free(element2);
 
 	return (0);
-} */
+}
+ */

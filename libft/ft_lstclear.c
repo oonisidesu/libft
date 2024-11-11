@@ -6,7 +6,7 @@
 /*   By: yootsubo <yootsubo@student.42.jp>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/28 15:47:19 by yootsubo          #+#    #+#             */
-/*   Updated: 2023/10/06 13:27:17 by yootsubo         ###   ########.fr       */
+/*   Updated: 2023/09/30 14:49:48 by yootsubo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,9 +58,9 @@ int main() {
 
     // リストをクリア
     ft_lstclear(&list, custom_del);
-    //ft_lstclear(&list, custom_del);
+    ft_lstclear(&list, custom_del);
     //ft_lstclear(NULL, custom_del);
-    //ft_lstclear(&list, NULL);
+    ft_lstclear(&list, NULL);
 
     // リストの内容を表示（空リストになるはず）
     printf("\nList after clearing:\n");
@@ -71,4 +71,5 @@ int main() {
     }
 
     return 0;
-} */
+}
+ */
