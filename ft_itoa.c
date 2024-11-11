@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yootsubo <yootsubo@student.42.jp>          +#+  +:+       +#+        */
+/*   By: ootsuboyoshiyuki <ootsuboyoshiyuki@stud    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/27 13:11:14 by yootsubo          #+#    #+#             */
-/*   Updated: 2023/09/30 20:54:10 by yootsubo         ###   ########.fr       */
+/*   Updated: 2024/11/11 19:28:53 by ootsuboyosh      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ static void	conv_int_to_string(int n, char *new_str)
 		n *= -1;
 		new_str[0] = '-';
 	}
-	while (new_str >= 0)
+	while (new_str != NULL)
 	{
 		new_str[i] = '0' + (n % 10);
 		if (n / 10 != 0)
