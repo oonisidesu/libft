@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yootsubo <yootsubo@student.42.jp>          +#+  +:+       +#+        */
+/*   By: ootsuboyoshiyuki <ootsuboyoshiyuki@stud    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/23 16:49:50 by yootsubo          #+#    #+#             */
-/*   Updated: 2023/11/06 19:37:16 by yootsubo         ###   ########.fr       */
+/*   Updated: 2024/12/10 16:43:27 by ootsuboyosh      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,5 +71,7 @@ int					ft_toupper(int c);
 int					ft_atoi_int(const char *str);
 long				ft_atoi_long(const char *str);
 int					ft_pow(int base, int exponent);
+char				*ft_strtrim_r(char const *s1, char const *set);
+char				*ft_strtrim_l(char const *s1, char const *set);
 
 #endif

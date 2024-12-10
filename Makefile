@@ -37,7 +37,9 @@ SRCS = ft_atoi.c \
 		ft_split.c \
 		ft_atoi_int.c \
 		ft_atoi_long.c \
-		ft_pow.c
+		ft_pow.c \
+		ft_strtrim_r.c \
+		ft_strtrim_l.c
 OBJS  = $(SRCS:.c=.o)
 BONUS = ft_lstnew.c \
 		ft_lstadd_front.c \
